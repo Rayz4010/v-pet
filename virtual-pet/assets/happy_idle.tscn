@@ -1,5 +1,6 @@
-[gd_scene load_steps=139 format=3 uid="uid://crx8x5f6jkmih"]
+[gd_scene load_steps=140 format=3 uid="uid://crx8x5f6jkmih"]
 
+[ext_resource type="Script" path="res://assets/mood_idle.gd" id="1_atel2"]
 [ext_resource type="Texture2D" uid="uid://do11fdly77om1" path="res://VPet/assets/image/Default/Happy/3/循环_000_125.png" id="1_q3fwn"]
 [ext_resource type="Texture2D" uid="uid://c6fxdftarhriu" path="res://VPet/assets/image/Default/Happy/3/循环_001_125.png" id="2_8hhmj"]
 [ext_resource type="Texture2D" uid="uid://ds8jrkgr7tko4" path="res://VPet/assets/image/Default/Happy/3/循环_002_125.png" id="3_55orj"]
@@ -588,6 +589,7 @@ animations = [{
 }]
 
 [node name="mood_idle" type="Node2D"]
+script = ExtResource("1_atel2")
 
 [node name="happy" type="AnimatedSprite2D" parent="."]
 position = Vector2(926, 310)
@@ -602,7 +604,7 @@ position = Vector2(926, 320)
 scale = Vector2(0.54, 0.54)
 sprite_frames = SubResource("SpriteFrames_i8f6l")
 animation = &"ill 2"
-frame_progress = 0.908898
+frame_progress = 0.61838
 script = ExtResource("74_a1klk")
 
 [node name="normal" type="AnimatedSprite2D" parent="."]
@@ -617,5 +619,5 @@ position = Vector2(926, 320)
 scale = Vector2(0.54, 0.54)
 sprite_frames = SubResource("SpriteFrames_yseqm")
 animation = &"poor condition 2"
-frame_progress = 0.48677
+frame_progress = 0.564815
 script = ExtResource("134_s5m61")

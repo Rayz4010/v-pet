@@ -6,13 +6,14 @@ extends CharacterBody2D
 @onready var poor_condition=$poor_condition
 
 func happy_entry():
-	pass
+	happy._ready()
 	
 func ill_entry():
-	pass
+	ill._ready()
 	
 func normal_entry():
-	pass
+	normal._ready()
 	
 func poor_condition_entry():
-	pass
+	poor_condition._ready()
+	

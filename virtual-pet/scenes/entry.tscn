@@ -452,7 +452,7 @@ position = Vector2(926, 320)
 scale = Vector2(0.54, 0.58)
 sprite_frames = SubResource("SpriteFrames_5x7dm")
 animation = &"happy 2"
-frame_progress = 0.523669
+frame_progress = 0.339342
 script = ExtResource("26_r05c4")
 
 [node name="ill" type="AnimatedSprite2D" parent="."]
@@ -460,7 +460,7 @@ position = Vector2(926, 320)
 scale = Vector2(0.54, 0.58)
 sprite_frames = SubResource("SpriteFrames_g500j")
 animation = &"ill"
-frame_progress = 0.595613
+frame_progress = 0.411288
 script = ExtResource("46_yyt0t")
 
 [node name="normal" type="AnimatedSprite2D" parent="."]
@@ -468,7 +468,7 @@ position = Vector2(926, 320)
 scale = Vector2(0.54, 0.58)
 sprite_frames = SubResource("SpriteFrames_v4234")
 animation = &"normal 2"
-frame_progress = 0.554357
+frame_progress = 0.37003
 script = ExtResource("84_4hvpc")
 
 [node name="poor_condition" type="AnimatedSprite2D" parent="."]
@@ -476,5 +476,5 @@ position = Vector2(926, 320)
 scale = Vector2(0.54, 0.58)
 sprite_frames = SubResource("SpriteFrames_ax8xt")
 animation = &"poor condition"
-frame_progress = 0.437421
+frame_progress = 0.253094
 script = ExtResource("103_0ey2f")

@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2dgktm51ksua"]
+
+[ext_resource type="Script" path="res://scripts/pet.gd" id="1_s71cf"]
+[ext_resource type="PackedScene" uid="uid://45f8vv6q4nu2" path="res://scenes/entry_scene.tscn" id="2_ro5vo"]
+[ext_resource type="PackedScene" uid="uid://iq5euw4mfs28" path="res://scenes/idle_scene.tscn" id="3_drb6v"]
+
+[node name="Pet" type="Node2D"]
+script = ExtResource("1_s71cf")
+
+[node name="AnimationContainer" type="Node2D" parent="."]
+
+[node name="EntryScene" parent="AnimationContainer" instance=ExtResource("2_ro5vo")]
+visible = false
+
+[node name="IdleScene" parent="AnimationContainer" instance=ExtResource("3_drb6v")]
+visible = false
